@@ -1,0 +1,440 @@
+* {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Silkscreen', cursive;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/assets/img/este2.jpg);
+  background-size: 200%;
+}
+
+#imagenH {
+  height: 150px;
+  width: 150px;
+  margin: -5px 0 -10px 0px;
+}
+
+::placeholder {
+  color: #ffffff;
+  border-style: none;
+}
+
+#ingresar-mensaje {
+  margin: 0px 0px 0px 100px;
+  height: 480px;
+  width: 90%;
+  text-transform: lowercase;
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #ffffff6b;
+  background-size: 100%;
+  border-radius: 10px;
+  font-size: 36px;
+  background-image: url(/assets/img/este2.jpg);
+  background-size: 200%;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#ingresar-mensaje:hover {
+  font-size: 36px;
+  box-shadow: 10px 8px 10px 0.5px #ff9011;
+  transition: 500ms;
+}
+
+#mensaje-desplegado {
+  margin: 20px 15px ;
+  width: 90%;
+  height: 528px;
+  color: #ffffff;
+  background-image: url(/assets/img/este2.jpg);
+  background-size: 0%;
+  border-style: none;
+  font-family: 'Silkscreen', cursive;
+  font-size: 36px;
+}
+
+section p:nth-child(2) {
+  margin: 10px 0 0 200px;
+}
+
+#btn-encriptar {
+  margin: 25px 30px 15px 200px;
+  width: 32%;
+  height: 60px;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #0a0a0a;
+  font-size: 16px;
+  border-color: #ffa947;
+  cursor: pointer;
+}
+
+#btn-desencriptar {
+  margin: 0px 0px 0px 0px;
+  width: 32%;
+  height: 60px;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #0a0a0a;
+  font-size: 16px;
+  border-color: #ffa947;
+  cursor: pointer;
+}
+
+#btn-encriptar:hover, #btn-desencriptar:hover, #btn-copiar:hover{
+  box-shadow: #ffdc17 0px 50px 70px -20px,#ffe65b 0px 0px 20px 4px;
+  border-color: #ff9011;
+  background-color: #0a0a0a ;
+  color: #ffa947;
+  transform: scale(1.1);
+  transition: 400ms;
+  border-color: #ffe550;
+}
+
+#tarjeta {
+  border: 2px solid #fda540;
+  width: 80%;
+  height: 730px;
+  margin: 30px 0 0 50px;
+  box-shadow: 10px 8px 10px 0.5px #eb6a00;
+  border-radius: 15px;
+  background-image: url(/assets/img/este2.jpg);
+}
+
+#btn-copiar {
+  margin: 69px 15px 0px 30px;
+  width: 85%;
+  height: 60px;
+  border-radius: 10px;
+  border-color: #ffa947;
+  background-color: #0a0a0a ;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.ocultar {
+  width: 100%;
+  margin: 30px 0 0 0;
+}
+
+#parrafo-1 {
+  font-weight: bold;
+  font-size: 1.8em;
+  color: rgb(255, 45, 45);
+  margin: 40px 0 0 20px;
+}
+
+#parrafo-2 {
+  font-weight: bold;
+  color: white;
+  margin: 20px;
+}
+
+section :nth-child(1) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+#exclamation {
+  width: 20px;
+  margin: 0px 5px 0 170px;
+  height: 20px;
+}
+
+#parrafoE {
+  display: inline;
+  vertical-align: top;
+  margin: 0px;
+}
+
+#footer {
+  background-color: #0a0a0a;
+  height: 250px;
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  border-style: double;
+  border-top-color: #ff9011;
+  border-radius: 10px;
+}
+
+#icono1, #icono2 {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  height: 50px;
+  width: 50px;
+  color: #ffffff;
+}
+
+#icono1:hover {
+  background-color: #0a66c2;
+  box-shadow: #0a66c2 0px 50px 70px -20px, #0a66c2 0px 0px 20px 4px;
+  border-radius: 10px;
+}
+#icono2:hover {
+  background-color: #1b1b1b;
+  box-shadow: #860192 0px 50px 70px -20px,#860192  0px 0px 20px 4px;
+  border-radius: 50px;
+}
+
+footer p {
+  color: #ffffff;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+      float: left;
+      /*border: 2px solid green;   Usar como guía*/
+      position: relative;
+    }
+    .col-lg-1 {
+      width: 8.33%;
+    }
+    .col-lg-2 {
+      width: 16.66%;
+    }
+    .col-lg-3 {
+      width: 25%;
+    }
+    .col-lg-4 {
+      width: 33.33%;
+    }
+    .col-lg-5 {
+      width: 41.66%;
+    }
+    .col-lg-6 {
+      width: 50%;
+    }
+    .col-lg-7 {
+      width: 58.33%;
+    }
+    .col-lg-8 {
+      width: 66.66%;
+    }
+    .col-lg-9 {
+      width: 74.99%;
+    }
+    .col-lg-10 {
+      width: 83.33%;
+    }
+    .col-lg-11 {
+      width: 91.66%;
+    }
+    .col-lg-12 {
+      width: 100%;
+    }
+  }
+
+    /********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+   
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  #imagenH {
+    margin: 0 0 -30px 0px;
+  }
+  #ingresar-mensaje {
+    margin: 20px 0px 0px 40px;
+    height: 480px;
+    width: 90%;
+  }
+  #parrafoE {
+    display: inline;
+    vertical-align: top;
+    margin: 5px;
+  }
+  #exclamation {
+    width: 20px;
+    margin: 0px 0 0px 40px;
+    height: 20px;
+  }
+  #btn-encriptar {
+    margin: 20px 20px 20px 80px;
+    width: 40%;
+    height: 60px;
+  }
+  #btn-desencriptar {
+    margin: 0px 0px 0px 0px;
+    width: 40%;
+    height: 60px;
+  }
+  #tarjeta {
+    border: 2px solid #fda540;
+    width: 90%;
+    margin: 30px 0px 0px 40px;
+    height: 100%;
+  }
+  .ocultar {
+    width: 50%;
+    margin: 10px 0 20px 150px;
+  }
+  #parrafo-1 {
+    font-weight: bold;
+    font-size: 1.8em;
+    color: rgb(255, 45, 45);
+    text-align: center;
+  }
+  #parrafo-2 {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  #btn-copiar {
+    margin: 0px 0px 20px 65px;
+    width: 80%;
+    height: 60px;
+  }
+}
+
+/********** Mobile devices only **********/
+@media (min-width: 200px) and (max-width: 767px) {
+  .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left;
+    /* border: 1px solid green; Usar como guía*/
+    position: relative;
+  }
+  .col-xs-1 {
+    width: 8.33%;
+  }
+  .col-xs-2 {
+    width: 16.66%;
+  }
+  .col-xs-3 {
+    width: 25%;
+  }
+  .col-xs-4 {
+    width: 33.33%;
+  }
+  .col-xs-5 {
+    width: 41.66%;
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .col-xs-7 {
+    width: 58.33%;
+  }
+  .col-xs-8 {
+    width: 66.66%;
+  }
+  .col-xs-9 {
+    width: 74.99%;
+  }
+  .col-xs-10 {
+    width: 83.33%;
+  }
+  .col-xs-11 {
+    width: 91.66%;
+  }
+  .col-xs-12 {
+    width: 100%;
+  }
+  #imagenH {
+    margin: 0 0 -15px -15px;
+  }
+  #ingresar-mensaje {
+    margin: 0px 0px 0px 20px;
+    height: 480px;
+    width: 90%;
+  }
+  #parrafoE {
+    display: inline;
+    vertical-align: top;
+    margin: 5px;
+    font-size: 12px;
+  }
+  #exclamation {
+    width: 20px;
+    margin: 0px 0 0px 25px;
+    height: 20px;
+  }
+  #btn-encriptar {
+    margin: 20px 0px 10px 20px;
+    width: 90%;
+    height: 60px;
+  }
+  #btn-desencriptar {
+    margin: 0px 0px 0px 20px;
+    width: 90%;
+    height: 60px;
+  }
+  #tarjeta {
+    border: 2px solid #fda540;
+    width: 90%;
+    margin: 20px 0px 0px 20px;
+    height: 100%;
+  }
+  .ocultar {
+    width: 100%;
+    margin: 10px 0 20px 0;
+  }
+  #parrafo-1 {
+    font-weight: bold;
+    font-size: 1.8em;
+    color: rgb(255, 45, 45);
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 10px;
+  }
+  #parrafo-2 {
+    font-weight: bold;
+    color: white;
+    margin: 10px 0 20px 0;
+    padding: 10px;
+    text-align: center;
+  }
+  #btn-copiar {
+    margin: 0px 0px 20px 20px;
+    width: 90%;
+    height: 60px;
+  }
+  #footer {
+    background-color: #0a0a0a;
+    height: 250px;
+    width: 100%;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dcrypt</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="col-lg-8 col-md-12 col-xs-12">
+                <img  id="imagenH" src="/assets/img/logo_transparent7.png" alt="">
+                <textarea id="ingresar-mensaje"  placeholder="Ingrese el texto aquí" ></textarea>
+                <div>
+                <img id="exclamation"src="/assets/img/exclamation-icon-18.jpg">
+                <p id="parrafoE">Solo letras minúsculas y sin acentos</p>
+                </div>
+                
+                <div >
+                <button id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+                <button id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </div>
+                
+            <div class="col-lg-4 col-md-12 col-xs-12">
+                <div id="tarjeta">
+                <textarea id="mensaje-desplegado"></textarea>
+                <img class="ocultar" src="/assets/img/failure.png" alt="">
+                <p class=" ocultar2" id="parrafo-1"  >Ningún mensaje fue encontrado! :(</p>
+                <p class="ocultar3" id="parrafo-2" >Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button id="btn-copiar" onclick="copiar()">Copiar</button>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="col-lg-12 col-md-12 col-xs-12" id="footer">
+                <a href="www.linkedin.com/in/carloseliud
+                "><img id="icono1" src="/assets/img/Mask group (1).png" alt=""></a>
+                <a href="https://github.com/CarlosHernand3z"><img id="icono2" src="/assets/img/Mask group.png"></a>
+                <p>&copy Dcrypt - 2022</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
