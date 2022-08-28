@@ -384,12 +384,12 @@ footer p {
     display: inline;
     vertical-align: top;
     margin: 5px;
-    font-size: 12px;
+    font-size: 8px;
   }
   #exclamation {
-    width: 20px;
+    width: 15px;
     margin: 0px 0 0px 25px;
-    height: 20px;
+    height: 15px;
   }
   #btn-encriptar {
     margin: 20px 0px 10px 20px;
