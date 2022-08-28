@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url(/assets/img/este2.jpg);
+  background-image: url(https://carloshernand3z.github.io/challengecodificador3/assets/img/este2.jpg);
   background-size: 200%;
 }
 
@@ -33,7 +33,7 @@ body {
   background-size: 100%;
   border-radius: 10px;
   font-size: 36px;
-  background-image: url(/assets/img/este2.jpg);
+  background-image: url(https://carloshernand3z.github.io/challengecodificador3/assets/img/este2.jpg);
   background-size: 200%;
   font-family: 'Montserrat Alternates', sans-serif;
 }
@@ -49,7 +49,7 @@ body {
   width: 90%;
   height: 528px;
   color: #ffffff;
-  background-image: url(/assets/img/este2.jpg);
+  background-image: url(https://carloshernand3z.github.io/challengecodificador3/assets/img/este2.jpg);
   background-size: 0%;
   border-style: none;
   font-family: 'Silkscreen', cursive;
@@ -101,7 +101,7 @@ section p:nth-child(2) {
   margin: 30px 0 0 50px;
   box-shadow: 10px 8px 10px 0.5px #eb6a00;
   border-radius: 15px;
-  background-image: url(/assets/img/este2.jpg);
+  background-image: url(https://carloshernand3z.github.io/challengecodificador3/assets/img/este2.jpg);
 }
 
 #btn-copiar {
