@@ -9,8 +9,9 @@ function encriptar() {
     var lowerC = palabras.toLowerCase();
     mensaje.value = lowerC; //Nuestro input convertido a minusculas
 
-    var palabras = mensaje.value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat"); //se añade función para no permitir acentos y remplazo de letras
+    var palabras = mensaje.value.normalize("NFD").replace(/ñ[\u0300-\u036f]/g, "").replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat"); //se añade función para no permitir acentos y remplazo de letras
     mensaje.value = palabras; //Resultado de remplazo de letras del valor que le asignamos
+    //!Añadimos que se pueda solo la Ñ en no permitir acentos
 
     mensajeEncriptado.value = palabras; //Pasamos el resultado al segundo textarea
     mensaje.value = ""; //Una vez enviado el resultado el primer textarea se vacia ("reinicia")
@@ -27,10 +28,22 @@ function desencriptar () {
 
     mensajeEncriptado.value = palabras;
     mensaje.value = ""; 
+    document.querySelector("#mensaje-desplegado").style.display = "block";
+    document.querySelector("#btn-copiar").style.display = "initial";
+    document.querySelector(".ocultar").style.display = "none";
+    document.querySelector(".ocultar2").style.display = "none";
+    document.querySelector(".ocultar3").style.display = "none";
+    //!VERSION 2
 }
 
 function copiar() {
     var copia = document.querySelector("#mensaje-desplegado");
     copia.select();
     navigator.clipboard.writeText(copia.value);
+    document.querySelector("#mensaje-desplegado").style.display = "none";
+    document.querySelector("#btn-copiar").style.display = "none";
+    document.querySelector(".ocultar").style.display = "block";
+    document.querySelector(".ocultar2").style.display = "block";
+    document.querySelector(".ocultar3").style.display = "block";
+    //!VERSION 2
 }
